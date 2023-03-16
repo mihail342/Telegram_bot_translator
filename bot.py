@@ -41,6 +41,7 @@ async def user_text(message):
     lang = lang.lang
 
     # Если ввод по русски, то перевести на английский по умолчанию.
+    # Если нужен другой язык, измени <message.text> на <message.text, dest='нужный язык'>.
     if lang == 'ru':
         send = translator.translate(message.text)
         await bot.reply_to(message, '------\n'+ send.text +'\n------')
