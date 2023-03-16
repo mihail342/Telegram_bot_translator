@@ -8,7 +8,7 @@ from googletrans import Translator
 from telebot.async_telebot import AsyncTeleBot
 import asyncio
 
-# Апи бота
+# Апи бота нужно получить у @BotFather в Телеграме.
 bot = AsyncTeleBot("API_bot", parse_mode=None)
 
 # Обработка команды /start приветствие.
@@ -51,6 +51,6 @@ async def user_text(message):
         await bot.reply_to(message, '------\n'+ send.text +'\n------')
 
 
-# Запуск и повторение запуска при сбое
+# Запуск и повторение запуска при сбое.
 asyncio.run(bot.infinity_polling())
 
