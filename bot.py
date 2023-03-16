@@ -1,7 +1,8 @@
 # Бот переводчик, переводит с русского на английский и со всех на русский.
 # Библиотеки (pip install googletrans==3.1.0a0  -важно утановить именно эту версию библиотеки,
 #             pip install pyTelegramBotAPI,
-#             pip install asyncio).
+#             pip install asyncio
+#             pip install aiohttp).
 
 ## Импорт библиотек
 from googletrans import Translator
