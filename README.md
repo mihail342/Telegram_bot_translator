@@ -3,8 +3,12 @@
 Установка библиотек описана в файле бота.
 При желании можно изменить перевод на английский язык, смотри в коментарии.
 
-## Список языков для изменения перевода ботом:
+The bot translates from Russian into English when typing in Russian and from other languages into Russian.
+The installation of libraries is described in the bot file.
+If you wish, you can change the translation into English, see the comments.
 
+## Список языков для изменения перевода ботом:
+List of languages for changing the translation by the bot:
 
 LANGUAGES = {
     'af': 'afrikaans',
@@ -116,3 +120,4 @@ LANGUAGES = {
     'zu': 'zulu',
 
 Мой бот @toto45Bot правда включен не всегда.
+My bot @toto45Bot is not always enabled.
