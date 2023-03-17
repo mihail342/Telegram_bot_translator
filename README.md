@@ -121,3 +121,5 @@ LANGUAGES = {
 
 Мой бот @toto45Bot правда включен не всегда.
 My bot @toto45Bot is not always enabled.
+
+###Еще один http://t.me/esperanta_tradukistoBot
