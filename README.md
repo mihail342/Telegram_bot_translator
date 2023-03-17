@@ -119,8 +119,5 @@ LANGUAGES = {
     'yo': 'yoruba',
     'zu': 'zulu',
 
-### Мой бот @toto45Bot правда включен не всегда.
-### My bot @toto45Bot is not always enabled.
 
-### Еще один Эсперанто http://t.me/esperanta_tradukistoBot
-### Alia bot Esperanto http://t.me/esperanta_tradukistoBot
+
