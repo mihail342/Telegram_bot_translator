@@ -119,5 +119,8 @@ LANGUAGES = {
     'yo': 'yoruba',
     'zu': 'zulu',
 
-bots @toto45Bot
-     @esperanta_tradukistoBot
+bots: 
+
+@toto45Bot
+     
+@esperanta_tradukistoBot
