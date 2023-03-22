@@ -76,11 +76,7 @@ async def handle_image(message):
     # Иначе другой язык перевести на русский {dest='ru'}.
     else:
         send = translator.translate(caption, dest='ru')
-        
-    
     await bot.send_photo(chat_id, photo, caption=send.text)
-
-
 
 # Обработка инлайн запросов
 @bot.inline_handler(lambda query: True)
@@ -115,4 +111,3 @@ async def inline_query(query):
 
 # Запуск и повторение запуска при сбое.
 asyncio.run(bot.infinity_polling())
-
