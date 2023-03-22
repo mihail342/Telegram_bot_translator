@@ -3,9 +3,17 @@
 Установка библиотек описана в файле бота.
 При желании можно изменить перевод на английский язык, смотри в коментарии.
 
+- добавлен инлайн режим для переписки в любом чате с иноговорящим человеком
+
+- добавлен перевод подписей картинок
+
 The bot translates from Russian into English when typing in Russian and from other languages into Russian.
 The installation of libraries is described in the bot file.
 If you wish, you can change the translation into English, see the comments.
+
+- added inline mode for correspondence in any chat with a non-speaking person
+
+- added translation of image captions
 
 ## Список языков для изменения перевода ботом:
 List of languages for changing the translation by the bot:
