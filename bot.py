@@ -78,7 +78,7 @@ async def handle_image(message):
         send = translator.translate(caption, dest='ru')
     await bot.send_photo(chat_id, photo, caption=send.text)
 
-# Обработка инлайн запросов
+# Обработка инлайн запросов. Инлайн режим необходимо включить в настройках бота у @BotFather.
 @bot.inline_handler(lambda query: True)
 async def inline_query(query):
     results = []
