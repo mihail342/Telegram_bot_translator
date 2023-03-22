@@ -10,7 +10,6 @@
 from googletrans import Translator
 from telebot.async_telebot import AsyncTeleBot
 import asyncio
-from pathlib import Path
 from telebot.types import InlineQuery, InputTextMessageContent
 from telebot import types
 
