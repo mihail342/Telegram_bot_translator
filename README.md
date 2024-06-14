@@ -127,8 +127,3 @@ LANGUAGES = {
     'yo': 'yoruba',
     'zu': 'zulu',
 
-bots: 
-
-@toto45Bot
-     
-@esperanta_tradukistoBot
